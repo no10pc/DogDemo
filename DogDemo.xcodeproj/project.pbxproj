@@ -10,6 +10,8 @@
 		6D8F05A8173AB79A0092EEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8F05A7173AB79A0092EEB1 /* Foundation.framework */; };
 		6D8F05AB173AB79A0092EEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F05AA173AB79A0092EEB1 /* main.m */; };
 		6D8F05AF173AB79A0092EEB1 /* DogDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6D8F05AE173AB79A0092EEB1 /* DogDemo.1 */; };
+		6D8F05B7173AB7AF0092EEB1 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F05B6173AB7AF0092EEB1 /* Dog.m */; };
+		6D8F05BA173AB8AB0092EEB1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F05B9173AB8AB0092EEB1 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		6D8F05AA173AB79A0092EEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D8F05AD173AB79A0092EEB1 /* DogDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogDemo-Prefix.pch"; sourceTree = "<group>"; };
 		6D8F05AE173AB79A0092EEB1 /* DogDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DogDemo.1; sourceTree = "<group>"; };
+		6D8F05B5173AB7AF0092EEB1 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		6D8F05B6173AB7AF0092EEB1 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		6D8F05B8173AB8AB0092EEB1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6D8F05B9173AB8AB0092EEB1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				6D8F05AD173AB79A0092EEB1 /* DogDemo-Prefix.pch */,
+				6D8F05B5173AB7AF0092EEB1 /* Dog.h */,
+				6D8F05B6173AB7AF0092EEB1 /* Dog.m */,
+				6D8F05B8173AB8AB0092EEB1 /* Person.h */,
+				6D8F05B9173AB8AB0092EEB1 /* Person.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8F05AB173AB79A0092EEB1 /* main.m in Sources */,
+				6D8F05B7173AB7AF0092EEB1 /* Dog.m in Sources */,
+				6D8F05BA173AB8AB0092EEB1 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

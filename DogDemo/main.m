@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Person.h"
+#import "Dog.h"
 int main(int argc, const char * argv[])
 {
 
@@ -15,7 +16,22 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
+        Person *xiaoLi =[[Person alloc] init];
+        Dog *dog =[[Dog alloc] init];
+        [dog setID:10];
+        [xiaoLi setDog:dog ];
+        [dog release];
         
+        
+        
+        while(1){
+            [[NSRunLoop currentRunLoop] run];
+        }
+        
+        
+        
+       
+        [xiaoLi release];
     }
     return 0;
 }
